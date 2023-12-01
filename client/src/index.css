@@ -1,0 +1,46 @@
+:root {
+  --clr-white: #fff;
+  --clr-black: #242424;
+  --clr-grey: #f3f3f3;
+  --clr-dark-grey: #686868;
+  --clr-red: #ff4e4e;
+  --clr-transparent: transparent;
+  --clr-twitter: #1da1f2;
+  --clr-purple: #8b46ff;
+
+  --ff-primary: "Inter", sans-serif;
+  --ff-secondary: "Gelasio", serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+svg,
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--clr-black);
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  box-shadow: 0 0 0 2px var(--clr-purple);
+}
