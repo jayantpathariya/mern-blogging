@@ -1,0 +1,76 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  max-width: 40rem;
+  width: 80%;
+  text-align: center;
+}
+
+.heading {
+  font-size: 3.8rem;
+  font-weight: 400;
+  margin-bottom: 11rem;
+  font-family: var(--ff-secondary);
+  text-transform: capitalize;
+}
+
+.btnSubmit {
+  margin-top: 3.6rem;
+  padding: 1.2rem 2.2rem;
+  font-size: 1.6rem;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  margin: 4rem 0;
+}
+
+.dividerLine {
+  width: 50%;
+  height: 1px;
+  background-color: var(--clr-dark-grey);
+}
+
+.dividerText {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--clr-dark-grey);
+}
+
+.googleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.googleBtn img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1rem;
+}
+
+.googleText {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.formText {
+  font-weight: 400;
+  margin-top: 2rem;
+  color: var(--clr-dark-grey);
+}
+
+.formLink {
+  color: var(--clr-black);
+}

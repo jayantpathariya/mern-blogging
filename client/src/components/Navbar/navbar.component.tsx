@@ -31,14 +31,14 @@ const Navbar = () => {
         >
           <Search />
         </button>
-        <Link to="/editor" className={styles.link}>
+        <Link to="/editor" className={`link ${styles.link}`}>
           <PenSquare size={16} />
           <p>Write</p>
         </Link>
-        <Link to="/sign-in" className={styles.btnDark}>
+        <Link to="/sign-in" className="btnDark btnSmall">
           Sign In
         </Link>
-        <Link to="/sign-up" className={styles.btnLight}>
+        <Link to="/sign-up" className={`btnLight btnSmall ${styles.btnLight}`}>
           Sign Up
         </Link>
       </div>

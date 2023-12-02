@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 5vw;
+  height: 8rem;
   background-color: var(--clr-white);
   position: sticky;
   top: 0;
@@ -13,12 +14,12 @@
 .logoContainer {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .logo {
-  width: 4rem;
-  height: 4rem;
+  width: 3.6rem;
+  height: 3.6rem;
   margin-right: 1rem;
 }
 
@@ -51,7 +52,7 @@
   height: 2rem;
   margin-right: 1rem;
   position: absolute;
-  left: 1rem;
+  left: 1.4rem;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -64,21 +65,10 @@
   gap: 2rem;
 }
 
-.link:link,
-.link:visited {
+.link {
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: 1.4rem;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  color: var(--clr-black);
-  transition: all 0.2s;
-}
-
-.link:hover,
-.link:active {
-  background-color: var(--clr-grey);
 }
 
 .mobileSearch {
@@ -89,40 +79,6 @@
   border-radius: 100vw;
   padding: 1rem;
   cursor: pointer;
-}
-
-.btnDark {
-  padding: 1rem 2rem;
-  font-size: 1.4rem;
-  border: none;
-  text-decoration: none;
-  border-radius: 100vw;
-  background-color: var(--clr-black);
-  color: var(--clr-white);
-  outline: none;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.btnDark:hover {
-  opacity: 0.8;
-}
-
-.btnLight {
-  padding: 1rem 2rem;
-  font-size: 1.4rem;
-  border: none;
-  text-decoration: none;
-  border-radius: 100vw;
-  background-color: var(--clr-grey);
-  color: var(--clr-black);
-  outline: none;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.btnLight:hover {
-  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
